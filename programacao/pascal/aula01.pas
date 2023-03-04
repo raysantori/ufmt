@@ -1,4 +1,4 @@
-program aula01; // função quadrática com a, b, c definido
+program aula01; // função quadrática com a, b, c definido vs1.0
 
 uses
     crt, math; //bibliotecas

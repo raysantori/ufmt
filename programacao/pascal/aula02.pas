@@ -1,4 +1,4 @@
-program aula02;
+program aula02; // resolvendo funçao quadrática vs2.0
 
 var
     a, b, c, x1, x2, tempdelta: real;
