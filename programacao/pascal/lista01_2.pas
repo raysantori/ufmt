@@ -14,14 +14,15 @@ begin // principal
 
         for i:=n1 to n2 do
         begin
-            if ((i mod 2) <> 0) then
+            if ((i mod 2) <> 0) then // cálculo dos números ímpares
             begin
                 write(#9, i);
             end; 
         end;
-            
-        writeln; writeln; writeln('Digite y para continuar.');
-        readln(info); writeln;
+        //bug: depois de pedir o y do usuário  ele para o programa :'(
+        //writeln; writeln; writeln('Digite y para continuar.');
+        //readln(info); 
+        writeln;
     end;
   
   writeln; writeln('Fim.');
