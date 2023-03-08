@@ -34,5 +34,4 @@ begin // início do programa
   
   writeln;
   writeln('Fim.');
-  readln;
 end.
