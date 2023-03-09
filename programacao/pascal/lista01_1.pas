@@ -1,4 +1,4 @@
-program lista01; // resolvendo uma função afim pelo valor de dois pontos
+program lista01_1; // resolvendo uma função afim pelo valor de dois pontos
 
 var
     a, b, x1, x2, y1, y2: real;
