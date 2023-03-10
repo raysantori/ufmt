@@ -1,4 +1,4 @@
-program aula05; // multiplicação de matrizes
+program aula05_1; // multiplicação de matrizes
 
 var
   A: array[0..2, 0..1] of real; //3x2

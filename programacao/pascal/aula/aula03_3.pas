@@ -1,4 +1,4 @@
-program exercicio02; // resolvendo funções afim vs2.0
+program aula03_3; // resolvendo funções afim vs2.0
 
 var
     a, b, x: real;

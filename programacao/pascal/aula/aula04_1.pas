@@ -1,4 +1,4 @@
-program aula04; // vetor vs1.0
+program aula04_1; // vetor vs1.0
 
 var
   vetor: array[0..4] of integer; // quantidade de coordenadas/elementos do índice 
