@@ -12,8 +12,7 @@ begin // início do programa
   begin
     for index:= 0 to 4 do
     begin
-      write('Entre com vetor[', index,']:');
-      readln(vetor[index]);
+      write('Entre com vetor[', index,']:'); readln(vetor[index]);
     end;
   
     max:= vetor[0];
@@ -26,12 +25,8 @@ begin // início do programa
       end;  
     end;
     
-    writeln; writeln('Máximo = ', max,'.');
-    writeln; writeln('Digite y para continuar.');
-    readln(info);
-    writeln;
+    writeln; writeln('Máximo = ', max,'.'); writeln; writeln('Digite y para continuar.'); readln(info); writeln;
   end; // fim do while
   
-  writeln;
-  writeln('Fim.');
+  writeln; writeln('Fim.');
 end.
