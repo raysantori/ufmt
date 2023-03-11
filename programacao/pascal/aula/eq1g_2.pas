@@ -1,4 +1,4 @@
-program aula03_2; // resolvendo funções afim vs1.0
+program eq1g_2; // resolvendo funções afim vs2.0
 
 var
     a, b, x: real;
@@ -28,6 +28,16 @@ begin // início do programa
         
         write('Entre com o a: '); //coeficiente angular
         readln(a);
+    end;
+        
+    if a = 0 then
+    begin
+      write('Entre com o b: '); // coeficiente linear
+      readln(b);
+      writeln;
+      
+      writeln('y = ', b, ', reta paralela ao eixo x.');
+      writeln;
     end;
 
     write(#9 + 'Fim.');

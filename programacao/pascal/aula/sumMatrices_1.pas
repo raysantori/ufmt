@@ -1,4 +1,4 @@
-program aula04_2; // soma de matrizes
+program sumMatrices_1; // soma de matrizes
 
 var 
 	A: array[0..1, 0..2] of real; // 2 linhas e 3 colunas ou 2x3

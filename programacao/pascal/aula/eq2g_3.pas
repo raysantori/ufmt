@@ -1,4 +1,4 @@
-program aula03_1; // função quadrática com código inteligente vs3.0
+program eq2g_3; // função quadrática com código inteligente vs3.0
 
 var
     a, b, c, x1, x2, delta: real;
