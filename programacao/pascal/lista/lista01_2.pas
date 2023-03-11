@@ -1,7 +1,7 @@
 program lista01_2; // descobrir todos o números ímpares entre números naturais N1 e N2 dados.
 
 var 
-    i, n1, n2: integer;
+    odd, n1, n2: integer;
 
 begin // principal
     write('Entre com N1: '); read(n1);
@@ -9,21 +9,21 @@ begin // principal
     
     if n1 < n2 then // para N2 maior que N1
     begin
-        for i := n1 to n2 do
+        for odd := n1 to n2 do
         begin
-            if ((i mod 2) <> 0) then // calc resto p determinar se é ímpar
+            if ((odd mod 2) <> 0) then // calc resto p determinar se é ímpar
             begin
-                write(#9, i);
+                write(#9, odd);
             end;
         end;
     end;
     if n2 < n1 then // para N1 maior que N2
     begin
-        for i := n2 to n1 do
+        for odd := n2 to n1 do
         begin
-            if ((i mod 2) <> 0) then // calc resto p determinar se é ímpar
+            if ((odd mod 2) <> 0) then // calc resto p determinar se é ímpar
             begin
-                write(#9, i);
+                write(#9, odd);
             end;
         end;
     end;
