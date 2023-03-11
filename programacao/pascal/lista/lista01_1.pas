@@ -37,11 +37,18 @@ begin // principal
         a:= getA(x1, x2, y1, y2); // coeficiente angular
         b:= getB(x1, x2, y1, y2); // coeficiente linear
 
-        writeln;
-        //writeln(#9, 'a = ', a:0:2); // coeficiente angular
-        //writeln(#9, 'b = ', b:0:2); // coeficiente linear
+        if b >= 0 then
+        begin
+            writeln;
         writeln(#9, 'f(x) = ', a:0:2,'x + ', b:0:2); // função afim y = ax + b
         writeln;
+        end;
+        if b < 0 then
+        begin
+            writeln;
+            writeln(#9, 'f(x) = ', a:0:2,'x ', b:0:2); // função afim y = ax + b
+        writeln;
+        end;
 
         writeln('Digite y para continuar.');
         readln(info);
