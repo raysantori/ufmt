@@ -1,18 +1,19 @@
 program lista01_3; // encontre uma solução aceitável para x^2-2=0 usando a fórmula iterativa
 
 var
-    solution, stopTest, x0: real;
+    epsilon, solution, stopTest, x0: real;
 
 begin // principal
+    epsilon:= 0.001;
     x0:= 1; // anterior
-    solution:= (1/2)*(x0+(2/x0)); // atual
-    stopTest:= abs(solution-x0)/abs(solution);
+    solution:= (1/2)*(x0+(2/x0)); // fórmula iterativa
+    stopTest:= abs(solution-x0)/abs(solution); // fórmula do erro relativo
 
-    while stopTest > 0.0001 do
+    while stopTest > epsilon do
     begin
         //writeln(solution:0:4, ' continua calculando...');
         x0:= solution;
-        solution:= (1/2)*(x0+(2/x0)); // atual
+        solution:= (1/2)*(x0+(2/x0)); // fórmula iterativa
         stopTest:= abs(solution-x0)/abs(solution); // recálculo
     end;
     
