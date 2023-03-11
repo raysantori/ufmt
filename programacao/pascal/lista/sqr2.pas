@@ -1,4 +1,4 @@
-program lista01_3; // encontre uma solução aceitável para x^2-2=0 usando a fórmula iterativa
+program sqr2; // encontre uma solução aceitável para x^2-2=0 usando a fórmula iterativa
 
 var
     epsilon, solution, stopTest, x0: real;
