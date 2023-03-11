@@ -14,7 +14,7 @@ begin
     getB:= (y1*x2-y2*x1)/(x2-x1); // coeficiente linear
 end;
 
-begin // principal
+begin
     info:= 'y';
 
     while (info = 'y') do
